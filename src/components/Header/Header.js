@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import Logo from '../../images/2.svg';
+import Logo from '../../images/logo.svg';
 import { Link } from 'react-router-dom';
 import { ABOUT_PAGE, MAIN_PAGE } from '../../utils/constants';
 
