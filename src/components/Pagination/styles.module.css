@@ -1,0 +1,48 @@
+.container {
+  padding: 40px 0 0;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0;
+  border-radius: 6px;
+}
+
+.link {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #a6abb1;
+  color: #000;
+  border-radius: 6px;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0 20px 20px 0;
+  outline: none;
+}
+
+.linkActive {
+  background-color: #4285f4;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.link:hover {
+  color: #fff;
+  transition: background-color 0.9s ease;
+  background-color: #4285f4;
+  border: 1px solid transparent;
+}
+
+.link:focus {
+  color: #fff;
+  background-color: #4285f4;
+}
+
+@media screen and (min-width: 768px) {
+  .link {
+    margin: 0 20px 0 0;
+  }
+}
